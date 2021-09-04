@@ -1,0 +1,179 @@
+* { box-sizing: border-box; }
+body
+{
+  font-family: 'Inter var',sans-serif;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; 
+}
+
+/*NAVBAR*/
+#head
+{
+    box-shadow: 1px 1px 3px gray;
+    padding-inline:6em ;
+
+}
+header{
+ align-items:baseline;
+}
+.nav-item a
+{
+  color: black;
+}
+#log
+{
+  border: solid 2px #007bff;
+  padding-inline: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color : #007bff;
+  margin-top: 5px;
+}
+#reg
+{
+ 
+  padding-inline: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color : #007bff;
+  margin-top: 5px;
+  margin-inline: 10px ;
+  color: antiquewhite;
+}
+
+
+/*SEARCH*/
+#search
+{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+#search input{
+  border: solid 1px black;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-inline-end:100px;
+}
+#search .btn{
+  padding: 0.7em;
+}
+
+
+/*CAROUSAL*/
+
+.carousel {
+   background: none;
+   margin-bottom: 60px;
+  }
+  
+  .carousel-cell {
+    width: 66%;
+    height: 350px;
+    margin-right: 10px;
+    background-image: url('https://internshala.com/cached_uploads/banner-images/home/careerstarter_sep21-1920-e2ea05.png');
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+  }
+  #slide1
+  {
+    background-image: url('https://internshala.com/cached_uploads/banner-images/home/home_internships-1920.png');
+    background-position: center;
+    background-size: cover;
+  }
+  #slide2
+  {
+    background-image: url('https://internshala.com/cached_uploads/banner-images/home/year_specific_21-1920-2606cc.png');
+    background-position: center;
+    background-size: cover;
+  }
+  #slide3
+  {
+    background-image: url('https://internshala.com/cached_uploads/banner-images/home/home_jobs-1920.png');
+    background-position: center;
+    background-size: cover;
+  }
+  #slide4
+  {
+    background-image: url('https://internshala.com/cached_uploads/banner-images/home/careerstarter_sep21-1920-e2ea05.png');
+    background-position: center;
+    background-size: cover;
+  }
+  
+
+.card
+{
+  background: none;
+  border:none;
+  padding:30px;
+}
+
+/*INTERNSHIPS SECTION*/
+#segment2
+{
+  display: flex;
+  flex-direction: column;
+  padding:3vw;
+}
+.seg1
+{
+  display:flex;
+   flex-direction:row;
+   justify-content: space-between;
+   margin-top:10px;
+   margin-bottom:30px;
+
+}
+.seg1 h5{
+  color: #484848;
+}
+.seg
+{
+   display:flex;
+   flex-direction:row;
+   justify-content: space-evenly;
+  overflow-x: scroll;
+  padding:5px;
+ 
+  
+}
+.box
+{
+  padding:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+.box p{
+  margin-top:5px;
+}
+.box:hover
+{
+  box-shadow: 0 8px 8px -5px gray;
+}
+/*FOOTER*/
+
+#foot{
+  background:#333333;
+  color:white;
+}
+.row
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.link
+{
+  color: aliceblue;
+}
